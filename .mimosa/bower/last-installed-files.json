@@ -1,0 +1,15 @@
+[
+  "assets\\javascripts\\vendor\\bootstrap\\bootstrap.js",
+  "assets\\javascripts\\vendor\\jqueryui\\jquery-ui.js",
+  "assets\\javascripts\\vendor\\knockout.js\\knockout.js",
+  "assets\\javascripts\\vendor\\knockoutjs\\knockout.js",
+  "assets\\javascripts\\vendor\\requirejs-text\\text.js",
+  "assets\\javascripts\\vendor\\requirejs\\require.js",
+  "assets\\stylesheets\\vendor\\bootstrap\\bootstrap.css",
+  "assets\\stylesheets\\vendor\\bootstrap\\bootstrap.less",
+  "assets\\stylesheets\\vendor\\bootstrap\\glyphicons-halflings-regular.eot",
+  "assets\\stylesheets\\vendor\\bootstrap\\glyphicons-halflings-regular.svg",
+  "assets\\stylesheets\\vendor\\bootstrap\\glyphicons-halflings-regular.ttf",
+  "assets\\stylesheets\\vendor\\bootstrap\\glyphicons-halflings-regular.woff",
+  "assets\\stylesheets\\vendor\\font-awesome\\font-awesome.css"
+]

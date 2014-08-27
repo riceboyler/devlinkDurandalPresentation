@@ -1,0 +1,351 @@
+{
+  "shims": {
+    "/app/main.js": {
+      "bootstrap": {
+        "deps": [
+          "jquery"
+        ],
+        "exports": "jQuery"
+      }
+    },
+    "/javascripts/app/main.js": {
+      "bootstrap": {
+        "deps": [
+          "jquery"
+        ],
+        "exports": "jQuery"
+      }
+    },
+    "/lib/require/r.js": null
+  },
+  "deps": {
+    "/app/bindings/ui.js": [],
+    "/app/main.js": [
+      "durandal/system",
+      "durandal/app",
+      "durandal/viewLocator"
+    ],
+    "/app/reload-client.js": [],
+    "/app/viewmodels/flickr.js": [
+      "plugins/http",
+      "durandal/app",
+      "knockout"
+    ],
+    "/app/viewmodels/shell.js": [
+      "plugins/router",
+      "durandal/app"
+    ],
+    "/app/viewmodels/welcome.js": [
+      "plugins/router"
+    ],
+    "/app/viewmodels/whoAmI.js": [],
+    "/javascripts/app/main.js": [
+      "durandal/system",
+      "durandal/app",
+      "durandal/viewLocator"
+    ],
+    "/javascripts/app/viewmodels/flickr.js": [
+      "plugins/http",
+      "durandal/app",
+      "knockout"
+    ],
+    "/javascripts/app/viewmodels/shell.js": [
+      "plugins/router",
+      "durandal/app"
+    ],
+    "/javascripts/app/viewmodels/welcome.js": [],
+    "/lib/bootstrap/js/bootstrap.js": [],
+    "/lib/bootstrap/js/bootstrap.min.js": [],
+    "/lib/custom.js": [],
+    "/lib/durandal/js/activator.js": [
+      "durandal/system",
+      "knockout"
+    ],
+    "/lib/durandal/js/app.js": [
+      "durandal/system",
+      "durandal/viewEngine",
+      "durandal/composition",
+      "durandal/events",
+      "jquery"
+    ],
+    "/lib/durandal/js/binder.js": [
+      "durandal/system",
+      "knockout"
+    ],
+    "/lib/durandal/js/composition.js": [
+      "durandal/system",
+      "durandal/viewLocator",
+      "durandal/binder",
+      "durandal/viewEngine",
+      "durandal/activator",
+      "jquery",
+      "knockout"
+    ],
+    "/lib/durandal/js/events.js": [
+      "durandal/system"
+    ],
+    "/lib/durandal/js/plugins/dialog.js": [
+      "durandal/system",
+      "durandal/app",
+      "durandal/composition",
+      "durandal/activator",
+      "durandal/viewEngine",
+      "jquery",
+      "knockout"
+    ],
+    "/lib/durandal/js/plugins/history.js": [
+      "durandal/system",
+      "jquery"
+    ],
+    "/lib/durandal/js/plugins/http.js": [
+      "jquery",
+      "knockout"
+    ],
+    "/lib/durandal/js/plugins/observable.js": [
+      "durandal/system",
+      "durandal/binder",
+      "knockout"
+    ],
+    "/lib/durandal/js/plugins/router.js": [
+      "durandal/system",
+      "durandal/app",
+      "durandal/activator",
+      "durandal/events",
+      "durandal/composition",
+      "plugins/history",
+      "knockout",
+      "jquery"
+    ],
+    "/lib/durandal/js/plugins/serializer.js": [
+      "durandal/system"
+    ],
+    "/lib/durandal/js/plugins/widget.js": [
+      "durandal/system",
+      "durandal/composition",
+      "jquery",
+      "knockout"
+    ],
+    "/lib/durandal/js/system.js": [
+      "require",
+      "jquery"
+    ],
+    "/lib/durandal/js/transitions/entrance.js": [
+      "durandal/system",
+      "durandal/composition",
+      "jquery"
+    ],
+    "/lib/durandal/js/viewEngine.js": [
+      "durandal/system",
+      "jquery"
+    ],
+    "/lib/durandal/js/viewLocator.js": [
+      "durandal/system",
+      "durandal/viewEngine"
+    ],
+    "/lib/jquery.hoverdir.js": [],
+    "/lib/jquery.hoverex.min.js": [],
+    "/lib/jquery.isotope.min.js": [],
+    "/lib/jquery.prettyPhoto.js": [],
+    "/lib/jquery/jquery-1.9.1.intellisense.js": [],
+    "/lib/jquery/jquery-1.9.1.js": [],
+    "/lib/jquery/jquery-1.9.1.min.js": [],
+    "/lib/knockout/knockout-3.1.0.debug.js": [
+      "exports"
+    ],
+    "/lib/knockout/knockout-3.1.0.js": [
+      "exports"
+    ],
+    "/lib/require/almond-custom.js": [],
+    "/lib/require/r.js": [
+      "build",
+      "logger",
+      "env!env/quit",
+      "env!env/args",
+      "env!env/quit",
+      "logger",
+      "build",
+      "assert",
+      "./file",
+      "fs",
+      "prim",
+      "fs",
+      "path",
+      "prim",
+      "prim",
+      "prim",
+      "env!env/print",
+      "exports",
+      "./esprima",
+      "env",
+      "require",
+      "exports",
+      "module",
+      "./parse-js",
+      "./process",
+      "exports",
+      "require",
+      "exports",
+      "module",
+      "./parse-js",
+      "./squeeze-more",
+      "require",
+      "exports",
+      "module",
+      "./parse-js",
+      "./squeeze-more",
+      "require",
+      "exports",
+      "module",
+      "./parse-js",
+      "./process",
+      "./consolidator",
+      "require",
+      "exports",
+      "module",
+      "./util",
+      "require",
+      "exports",
+      "module",
+      "./base64",
+      "require",
+      "exports",
+      "module",
+      "require",
+      "exports",
+      "module",
+      "require",
+      "exports",
+      "module",
+      "./util",
+      "./binary-search",
+      "./array-set",
+      "./base64-vlq",
+      "require",
+      "exports",
+      "module",
+      "./base64-vlq",
+      "./util",
+      "./array-set",
+      "require",
+      "exports",
+      "module",
+      "./source-map-generator",
+      "./util",
+      "require",
+      "exports",
+      "module",
+      "require",
+      "exports",
+      "module",
+      "./source-map/source-map-generator",
+      "./source-map/source-map-consumer",
+      "./source-map/source-node",
+      "exports",
+      "source-map",
+      "logger",
+      "env!env/file",
+      "./esprimaAdapter",
+      "lang",
+      "./esprimaAdapter",
+      "./parse",
+      "logger",
+      "lang",
+      "parse",
+      "logger",
+      "logger",
+      "env!env/file",
+      "lang",
+      "logger",
+      "env!env/optimize",
+      "env!env/file",
+      "parse",
+      "pragma",
+      "uglifyjs/index",
+      "uglifyjs2",
+      "source-map",
+      "env!env/file",
+      "pragma",
+      "parse",
+      "lang",
+      "logger",
+      "commonJs",
+      "prim",
+      "env!env/file",
+      "parse",
+      "require",
+      "lang",
+      "prim",
+      "logger",
+      "env!env/file",
+      "parse",
+      "optimize",
+      "pragma",
+      "transform",
+      "requirePatch",
+      "env",
+      "commonJs",
+      "source-map/source-map-generator"
+    ],
+    "/lib/require/require.js": [],
+    "/lib/require/text.js": [
+      "module"
+    ],
+    "/lib/retina-1.1.0.js": []
+  },
+  "aliases": {
+    "/app/main.js": {
+      "text": "../lib/require/text",
+      "durandal": "../lib/durandal/js",
+      "plugins": "../lib/durandal/js/plugins",
+      "transitions": "../lib/durandal/js/transitions",
+      "knockout": "../lib/knockout/knockout-3.1.0",
+      "bootstrap": "../lib/bootstrap/js/bootstrap",
+      "jquery": "../lib/jquery/jquery-1.9.1"
+    },
+    "/javascripts/app/main.js": {
+      "text": "../lib/require/text",
+      "durandal": "../lib/durandal/js",
+      "plugins": "../lib/durandal/js/plugins",
+      "transitions": "../lib/durandal/js/transitions",
+      "knockout": "../lib/knockout/knockout-3.1.0",
+      "bootstrap": "../lib/bootstrap/js/bootstrap",
+      "jquery": "../lib/jquery/jquery-1.9.1"
+    },
+    "/lib/require/r.js": null
+  },
+  "mappings": {
+    "/app/main.js": null,
+    "/javascripts/app/main.js": null,
+    "/lib/require/r.js": null
+  },
+  "packages": {
+    "/app/main.js": null,
+    "/javascripts/app/main.js": null,
+    "/lib/require/r.js": null
+  },
+  "originalConfig": {
+    "shim": {
+      "bootstrap": {
+        "deps": [
+          "jquery"
+        ],
+        "exports": "jQuery"
+      }
+    },
+    "paths": {
+      "text": "../lib/require/text",
+      "knockout": "../lib/knockout/knockout-3.1.0",
+      "jquery": "../lib/jquery/jquery-1.9.1",
+      "bootstrap": "../lib/bootstrap/js/bootstrap",
+      "durandal": "../lib/durandal/js",
+      "plugins": "../lib/durandal/js/plugins",
+      "transitions": "../lib/durandal/js/transitions"
+    }
+  },
+  "requireFiles": [
+    "/app/main.js",
+    "/javascripts/app/main.js",
+    "/lib/durandal/js/system.js",
+    "/lib/require/r.js"
+  ]
+}
